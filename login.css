@@ -1,0 +1,68 @@
+{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+body{
+    background-color: skyblue;
+}
+/* Container */
+.container {
+    width: 500px;
+    height: 800px;
+    display: flex;
+    border: 1px black;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    margin-top: 50px;
+    box-shadow: 10px 10px 20px black;
+
+}
+/* Login-Form */
+.form   {
+    border-style: solid;
+    border-color: rgb(14, 12, 12);
+    background-color: rgba(36, 209, 13, 0.315);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.form h2{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 30px;
+    align-self: center;
+}
+.box{
+    padding: 12px;
+    width: 65%;
+    align-self: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 15px;
+}
+#submit{
+    padding: 10px;
+    width: 25%;
+    margin-top: 15px;
+    background-color: orange;
+    align-self: center;
+    border-radius: 20px;
+    color:blue;
+    border: none;
+    font-weight: bold;
+}
+#submit:hover{
+    cursor: pointer;
+    background-color: cadetblue;
+}
+.form a{
+    text-decoration: none;
+    color:black;
+    margin-top: 20px;
+    align-self: center;
+}
+.form a:hover{
+    color: darkgreen;
+}
